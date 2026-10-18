@@ -1,0 +1,5 @@
+# Netlify settings – static site, no build step.
+# No custom cache rules: Netlify's default makes browsers check for changes on every visit,
+# so replaced photos, CSS and JS show up for everyone immediately.
+[build]
+  publish = "."

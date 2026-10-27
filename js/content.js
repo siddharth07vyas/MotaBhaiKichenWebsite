@@ -14,7 +14,7 @@ const SITE = {
   reviewsUrl: "https://www.google.com/maps/search/?api=1&query=MOTA+BHAII%2C+267+Mahatma+Gandhi+Road%2C+Indore%2C+Madhya+Pradesh+452002",
   hours: "Daily, 12 noon – 12 midnight",   // owner confirmed (Oct 2026)
   instagram: "https://www.instagram.com/_motabhaii_/",
-  zomato: "https://www.zomato.com/indore/mota-bhaii-indian-kitchen-malharganj",
+  zomato: "https://zomato.onelink.me/xqzv/2u3wdd5c",
   // From Zomato listing: Lunch, Dinner, Home delivery, Takeaway, Vegetarian only, Digital payments
   // No seating area (owner confirmed) – takeaway and delivery only.
   services: ["Takeaway", "Home delivery on Zomato", "Digital payments accepted"],

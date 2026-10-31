@@ -13,7 +13,6 @@ $("#footAddr").textContent = SITE.address;
 $("#phoneText").textContent = SITE.phoneDisplay;
 $("#footPhone").textContent = SITE.phoneDisplay;
 $$("[data-zomato]").forEach(a => SITE.zomato ? a.href = SITE.zomato : a.remove());
-$$("[data-insta]").forEach(a => SITE.instagram ? a.href = SITE.instagram : a.remove());
 $("#hours").textContent = SITE.hours || "Please call to confirm current timings";
 $("#statusHours").innerHTML = SITE.hours ? `<strong>Open ${esc(SITE.hours.replace(/^Daily, /, "daily, "))}.</strong>` : "<strong>Opening hours not yet confirmed.</strong>";
 $("#services").innerHTML = SITE.services.map(s => `<li>${esc(s)}</li>`).join("");
